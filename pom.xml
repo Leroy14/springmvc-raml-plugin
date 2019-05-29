@@ -54,7 +54,7 @@
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<powermock.version>1.6.2</powermock.version>
+		<powermock.version>1.7.4</powermock.version>
 		<maven.core.version>3.6.1</maven.core.version>
 		<spring.platform.version>2.0.3.RELEASE</spring.platform.version>
 		<jsonschema2pojo.version>0.4.23</jsonschema2pojo.version>
