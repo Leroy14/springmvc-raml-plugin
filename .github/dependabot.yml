@@ -1,0 +1,30 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: com.github.javaparser:javaparser-core
+    versions:
+    - 3.18.0
+    - 3.19.0
+    - 3.20.0
+  - dependency-name: com.fasterxml.jackson.module:jackson-module-jsonSchema
+    versions:
+    - 2.12.1
+    - 2.12.2
+  - dependency-name: org.jsonschema2pojo:jsonschema2pojo-core
+    versions:
+    - 1.0.2
+    - 1.1.0
+  - dependency-name: org.apache.maven:maven-compat
+    versions:
+    - 3.6.3
+  - dependency-name: org.apache.maven:maven-plugin-api
+    versions:
+    - 3.6.3
+  - dependency-name: org.apache.maven:maven-core
+    versions:
+    - 3.6.3
